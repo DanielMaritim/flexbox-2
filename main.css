@@ -1,0 +1,43 @@
+#dad {
+	border: 2px solid black;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width:700px;
+	-webkit-box-pack:center;
+	
+	/* changing position using the -webkit-box-ordinal-group(number) property
+	 or using -webkit-box-pack:center to move the sections in the center*/
+	
+}
+#dan1 {
+	border:2px solid red;
+	background:yellow;
+	margin:10px;
+	padding:20px;
+	-webkit-box-ordinal-group:3;
+	width:60px;
+}
+#dan2 {
+	border:2px solid red;
+	background:blue;
+	margin:10px;
+	padding:20px;
+	-webkit-box-ordinal-group:4;
+	width:60px;
+}
+#dan3 {
+	border:2px solid red;
+	background:red;
+	margin:10px;
+	padding:20px;
+	-webkit-box-ordinal-group:1;
+	width:60px;
+}
+#dan4 {
+	border:2px solid red;
+	background:grey;
+	margin:10px;
+	padding:20px;
+	-webkit-box-ordinal-group:2;
+	width:60px;
+}
