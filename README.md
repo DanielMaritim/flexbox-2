@@ -10,3 +10,10 @@ The webkit-box-orient tSpecifies whether the children of a box element should be
 Only works for box objects
 
 The box-orient CSS property sets whether an element lays out its contents horizontally or vertically.
+
+The main axis is defined by flex-direction, which has four possible values:
+
+    row
+    row-reverse
+    column
+    column-reverse
